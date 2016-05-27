@@ -144,6 +144,10 @@
     
     [displayString setString:@""];
     display.text= displayString;
+    
+    UIView *myView=[[UIView alloc]initWithFrame:CGRectMake(0, 0, 320, 568)];
+    myView.backgroundColor=[UIColor redColor];
+    [self.view addSubview:myView];
 }
 
 - (IBAction)clickDigit:(id)sender {
@@ -152,4 +156,9 @@
     
     [self processDigit: digit];
 }
+
+- (IBAction)unwind:(UIStoryboardSegue *)segue {
+
+}
+
 @end
