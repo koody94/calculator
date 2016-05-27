@@ -13,6 +13,8 @@
 		CA2FCDC41CF815C3000D66EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2FCDC21CF815C3000D66EB /* Main.storyboard */; };
 		CA2FCDC61CF815C3000D66EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2FCDC51CF815C3000D66EB /* Assets.xcassets */; };
 		CA2FCDC91CF815C3000D66EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2FCDC71CF815C3000D66EB /* LaunchScreen.storyboard */; };
+		CA2FCDD41CF81628000D66EB /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2FCDD11CF81628000D66EB /* Calculator.m */; };
+		CA2FCDD51CF81628000D66EB /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2FCDD31CF81628000D66EB /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		CA2FCDC51CF815C3000D66EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA2FCDC81CF815C3000D66EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA2FCDCA1CF815C3000D66EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2FCDD01CF81628000D66EB /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		CA2FCDD11CF81628000D66EB /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		CA2FCDD21CF81628000D66EB /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		CA2FCDD31CF81628000D66EB /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		CA2FCDB81CF815C3000D66EB /* Fraction_Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CA2FCDD01CF81628000D66EB /* Calculator.h */,
+				CA2FCDD11CF81628000D66EB /* Calculator.m */,
+				CA2FCDD21CF81628000D66EB /* Fraction.h */,
+				CA2FCDD31CF81628000D66EB /* Fraction.m */,
 				CA2FCDBC1CF815C3000D66EB /* AppDelegate.h */,
 				CA2FCDBD1CF815C3000D66EB /* AppDelegate.m */,
 				CA2FCDBF1CF815C3000D66EB /* ViewController.h */,
@@ -150,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA2FCDC11CF815C3000D66EB /* ViewController.m in Sources */,
+				CA2FCDD41CF81628000D66EB /* Calculator.m in Sources */,
 				CA2FCDBE1CF815C3000D66EB /* AppDelegate.m in Sources */,
 				CA2FCDBB1CF815C3000D66EB /* main.m in Sources */,
+				CA2FCDD51CF81628000D66EB /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
