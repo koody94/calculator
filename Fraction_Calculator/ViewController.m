@@ -29,6 +29,8 @@
     isNumerator=YES;
     displayString=[NSMutableString stringWithCapacity:40];
     myCalculator = [[Calculator alloc]init];
+    
+    display.text = @"";
     // Do any additional setup after loading the view, typically from a nib.
 }
 
